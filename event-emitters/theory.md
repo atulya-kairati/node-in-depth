@@ -40,7 +40,7 @@ myEmitter.emit('hehe', {bing: "chilling"})
 
 #### Working
 
-(Event Emitter Diagram)[./eventemitter_diag.png]
+![Event Emitter Diagram](./eventemitter_diag.png)
 
 - In simple terms a EventEmitter is an object which maps the event name to a array of callbacks.
 - In *step 3* when we register a new callback to a emitter, it saves the event as a key to a value of array which holds the callback.
