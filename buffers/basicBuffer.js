@@ -4,8 +4,8 @@ const { Buffer } = require('buffer')
 // Allocating a buffer
 const buffer1 = Buffer.alloc(16)
 
-// Filling a buffer
-//It will only fill upto its size, rest will be ignored
+// writing to a buffer
+//It will only write upto its size, rest will be ignored
 buffer1.write("Bing Chlling 12_This will be ignored")
 
 // by default, values will be printed in hex format 
