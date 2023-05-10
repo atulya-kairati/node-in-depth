@@ -1,1 +1,2 @@
-create a file wank.txt
+append to wank.txt 
+I'm the dude playin' the dude, disguised as another dude!
